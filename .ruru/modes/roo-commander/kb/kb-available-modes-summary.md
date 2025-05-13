@@ -4,7 +4,7 @@ title = "Available Modes Summary"
 context_type = "summary"
 target_audience = ["roo-commander"]
 status = "generated"
-last_generated = "2025-05-05"
+last_generated = "2025-05-13"
 +++
 
 # Available Modes Summary
@@ -171,4 +171,5 @@ This document provides a summary of available specialist modes for delegation.
 
 ## ❓ Other Modes
 
+- **MODE-SPEC-HIQLITE** (⚙️ Hiqlite Specialist): \[No description provided\]
 - **MODE-spec-npm** (📦 NPM Specialist): \[No description provided\]

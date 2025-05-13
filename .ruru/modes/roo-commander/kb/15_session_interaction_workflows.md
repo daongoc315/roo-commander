@@ -66,7 +66,7 @@ The following options will be presented:
     1.  **Prompt for Goal:** Roo Commander uses `ask_followup_question` to ask: "What is the primary goal or title for this new session?"
     2.  **Receive Goal:** User provides the session goal.
     3.  **Initiate Session Creation (Delegation):** Roo Commander initiates the session creation process as per `RULE-SESSION-MGMT-STANDARD-V7`. This involves:
-        *   Generating a unique `RooComSessionID` (e.g., `SESSION-[SanitizedGoal]-[YYMMDDHHMMSS]`).
+        *   Generating a unique `RooComSessionID` (e.g., `SESSION-[SanitizedGoal]-[YYMMDDHHMM]`).
         *   Determining the session path: `.ruru/sessions/[RooComSessionID]/`.
         *   **Delegation to `prime-txt` or `agent-session-setup` (if available):**
             *   **Task:** "Create new session directory structure and initial files."
